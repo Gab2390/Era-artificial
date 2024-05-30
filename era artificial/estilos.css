@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4; /* Adicionado fundo cinza claro */
+}
+
+.sessaoLivro, .sessaoAutor {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    border: 1px solid #d5d5d5;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+p {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+span {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.imagemLivro, .imagemAutor {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.botaoLink {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botaoLink:hover {
+    background-color: #218838;
+}
